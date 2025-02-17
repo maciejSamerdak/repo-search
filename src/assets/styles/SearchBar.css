@@ -1,0 +1,9 @@
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 30vw!important;
+    min-width: 200px;
+}
