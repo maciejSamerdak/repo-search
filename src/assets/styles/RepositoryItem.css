@@ -1,0 +1,32 @@
+span {
+    margin: 0 8px
+}
+
+.card {
+    padding: 1%
+}
+
+.left-col {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-col {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.repo-bottom-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.repo-date-container {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,11 @@
+.repo-list-row {
+    margin-bottom: 5px
+}
+
+.card {
+    background-color: whitesmoke;
+    transition: all 0.2s ease-out
+}
+.card:hover {
+    background-color: white;
+}
