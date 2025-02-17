@@ -5,8 +5,9 @@ import "@/assets/styles/SearchBar.css"
 function SearchBar({onSubmit}) {
     const handleSubmit = event => {
         event.preventDefault()
-      const form = event.currentTarget
-        onSubmit(form.username.value)
+        console.log(event)
+        const form = event.target
+        onSubmit(form.elements.username.value)
     }
 
     return (
@@ -17,7 +18,7 @@ function SearchBar({onSubmit}) {
                 </Form.Group>
                 <Button variant="primary" type="submit">Search</Button>
             </Stack>
-      </Form>
+        </Form>
     )
 }
 
