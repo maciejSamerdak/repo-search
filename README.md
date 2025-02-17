@@ -34,3 +34,12 @@ AFter build is completed, you can preview it with
 ```bash
 npm run preview
 ```
+
+## Tests
+
+This project uses Jest with React Testing Library.
+
+To run tests use
+```bash
+npm run test
+```
